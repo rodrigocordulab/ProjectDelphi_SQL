@@ -1,0 +1,169 @@
+object frmTelaHeranca: TfrmTelaHeranca
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Informe aqui o titulo'
+  ClientHeight = 488
+  ClientWidth = 813
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pgcPrincipal: TPageControl
+    Left = 0
+    Top = 0
+    Width = 813
+    Height = 447
+    ActivePage = tabListagem
+    Align = alClient
+    TabOrder = 0
+    object tabListagem: TTabSheet
+      Caption = 'Listagem'
+      object pnlListagem: TPanel
+        Left = 0
+        Top = 0
+        Width = 805
+        Height = 67
+        Align = alTop
+        TabOrder = 0
+        object lblIndice: TLabel
+          Left = 8
+          Top = 1
+          Width = 42
+          Height = 13
+          Caption = 'Pesquisa'
+        end
+        object mskPesquisar: TMaskEdit
+          Left = 8
+          Top = 21
+          Width = 337
+          Height = 21
+          TabOrder = 0
+          Text = ''
+          TextHint = 'Digite sua pesquisa'
+        end
+        object btnPesquisar: TBitBtn
+          Left = 351
+          Top = 19
+          Width = 75
+          Height = 26
+          Caption = '&Pesquisar'
+          TabOrder = 1
+        end
+      end
+      object grdListagem: TDBGrid
+        Left = 0
+        Top = 67
+        Width = 805
+        Height = 352
+        Align = alClient
+        DataSource = dtsListagem
+        TabOrder = 1
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Tahoma'
+        TitleFont.Style = []
+      end
+    end
+    object TabManutencao: TTabSheet
+      Caption = 'Manuten'#231#227'o'
+      ImageIndex = 1
+    end
+  end
+  object pnlRodape: TPanel
+    Left = 0
+    Top = 447
+    Width = 813
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    DesignSize = (
+      813
+      41)
+    object btnNovo: TBitBtn
+      Left = 12
+      Top = 6
+      Width = 75
+      Height = 27
+      Caption = '&Novo'
+      TabOrder = 0
+      OnClick = btnNovoClick
+    end
+    object btnAlterar: TBitBtn
+      Left = 93
+      Top = 6
+      Width = 75
+      Height = 27
+      Caption = '&Alterar'
+      TabOrder = 1
+      OnClick = btnAlterarClick
+    end
+    object btnCancelar: TBitBtn
+      Left = 174
+      Top = 6
+      Width = 75
+      Height = 27
+      Caption = '&Cancelar'
+      TabOrder = 2
+      OnClick = btnCancelarClick
+    end
+    object btnGravar: TBitBtn
+      Left = 255
+      Top = 6
+      Width = 75
+      Height = 27
+      Caption = '&Gravar'
+      TabOrder = 3
+      OnClick = btnGravarClick
+    end
+    object btnApagar: TBitBtn
+      Left = 336
+      Top = 6
+      Width = 75
+      Height = 27
+      Caption = 'Apaga&r'
+      TabOrder = 4
+      OnClick = btnApagarClick
+    end
+    object btnFechar: TBitBtn
+      Left = 714
+      Top = 6
+      Width = 75
+      Height = 27
+      Anchors = [akTop, akRight]
+      Caption = '&Fechar'
+      TabOrder = 5
+      OnClick = btnFecharClick
+    end
+    object btnNavigator: TDBNavigator
+      Left = 417
+      Top = 6
+      Width = 224
+      Height = 27
+      DataSource = dtsListagem
+      VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+      TabOrder = 6
+    end
+  end
+  object QryListagem: TZQuery
+    Connection = dtmConexao.ConexaoDB
+    Params = <>
+    Left = 496
+    Top = 32
+  end
+  object dtsListagem: TDataSource
+    DataSet = QryListagem
+    Left = 560
+    Top = 32
+  end
+end

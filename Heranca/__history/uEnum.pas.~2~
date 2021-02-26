@@ -1,0 +1,22 @@
+unit uEnum;
+
+interface
+
+Type
+  TEstadoDoCadastro = (ecInserir,ecAlterar,ecNenhum);
+
+TEstadoDoCadastro = class(ecInserir,ecAlterar,ecNenhum);
+private
+  { private declarations }
+protected
+  { protected declarations }
+public
+  { public declarations }
+
+published
+  { published declarations }
+end;
+
+implementation
+
+end.

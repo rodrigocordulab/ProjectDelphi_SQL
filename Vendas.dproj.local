@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/11 16:16:25.000.867,=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 16:18:11.000.814,=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 16:21:35.000.310,=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 16:39:00.000.403,=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 16:39:54.000.043,C:\Users\Menew\Documents\ProjetoDelphi\uPrincipal.pas=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 16:39:54.000.043,C:\Users\Menew\Documents\ProjetoDelphi\uPrincipal.dfm=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/01/11 16:40:13.000.943,C:\Users\Menew\Documents\ProjetoDelphi\Vendas.dproj=C:\Users\Menew\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/01/11 18:19:32.000.531,=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 18:20:30.000.508,C:\Users\Menew\Documents\ProjetoDelphi\DataModule\uDTMConexao.pas=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 18:20:30.000.508,C:\Users\Menew\Documents\ProjetoDelphi\DataModule\uDTMConexao.dfm=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2021/01/11 22:28:22.000.534,=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 22:28:55.000.980,C:\Users\Menew\Documents\ProjetoDelphi\Heranca\uTelaHeranca.pas=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 22:28:55.000.980,C:\Users\Menew\Documents\ProjetoDelphi\Heranca\uTelaHeranca.dfm=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2021/01/11 22:58:48.000.565,=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 22:59:35.000.362,C:\Users\Menew\Documents\ProjetoDelphi\Cadastros\uCadCategoria.pas=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/11 22:59:35.000.362,C:\Users\Menew\Documents\ProjetoDelphi\Cadastros\uCadCategoria.dfm=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2021/01/12 10:18:37.000.285,=C:\Users\Menew\Documents\ProjetoDelphi\terceiros\Enter.pas</Transaction>
+    <Transaction>2021/01/13 10:43:43.000.893,=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/13 10:44:11.000.548,C:\Users\Menew\Documents\ProjetoDelphi\Heranca\uEnum.pas=C:\Users\Menew\Documents\ProjetoDelphi\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
